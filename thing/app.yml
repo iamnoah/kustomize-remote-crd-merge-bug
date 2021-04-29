@@ -1,0 +1,11 @@
+apiVersion: example.com/v1
+kind: MyKind
+metadata:
+  name: thing
+spec:
+  podTemplate:
+    containers:
+    - name: app
+      image: "app"
+    - name: db
+      image: "db"
